@@ -1,6 +1,6 @@
 ## auto-screenshot
 
-Take screenshots automatically every hour
+Take screenshots automatically every hour\
 Default screenshots directory is ~/Pictures/auto-screenshot
 
 #### Dependencies

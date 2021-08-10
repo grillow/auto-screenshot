@@ -1,4 +1,4 @@
-#!/bin/bash
-AUTO_SCREENSHOT_DIRECTORY=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd)
+#!/bin/sh
+AUTO_SCREENSHOT_DIRECTORY="$(readlink -f $(dirname $0))"
 SCREENSHOTS_DIRECTORY=~/Pictures/auto-screenshot
 SESSION_SYMLINK="$SCREENSHOTS_DIRECTORY/current-session"

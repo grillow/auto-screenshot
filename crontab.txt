@@ -1,0 +1,3 @@
+# auto-screenshot
+@reboot   ~/scripts/cron/auto-screenshot/create-session.sh
+0 * * * * ~/scripts/cron/auto-screenshot/screenshot.sh
